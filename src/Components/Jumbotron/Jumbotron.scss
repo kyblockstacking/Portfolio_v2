@@ -1,4 +1,4 @@
-$heroColor: teal;
+//SASS Variables
 $heroImage: url('../../Images/wallpaper.jpg');
 
 .hero {
@@ -6,11 +6,6 @@ $heroImage: url('../../Images/wallpaper.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: $heroColor;
     height: 100vh;
     text-align: center;
-}
-
-.hero .name {
-    color: red;
 }
