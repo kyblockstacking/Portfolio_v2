@@ -1,11 +1,29 @@
 $background: #364b71;
 $color: #d1e1ff;
+$Karla: "Karla";
+$EuphoriaScript: "Euphoria Script";
 
 .navbar {
   background-color: $background;
   color: $color;
+  font-size: 1.5em;
+  padding: 0.5em 1em 0 1em;
+  text-align: right;
 }
 
-.navLinks {
-  float: right;
+.logo {
+  font-size: 3em;
+  font-family: $EuphoriaScript;
+  float: left;
+  cursor: default;
+}
+
+.navLinks,
+.seperateLinks {
+  font-family: $Karla;
+}
+
+.navLinks:hover {
+  border-bottom: 4px solid gold;
+  cursor: pointer;
 }
