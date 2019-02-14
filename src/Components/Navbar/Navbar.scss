@@ -24,6 +24,12 @@ $EuphoriaScript: "Euphoria Script";
 .seperateLinks {
   font-family: $Karla;
 }
+//keeps visited navbar links the same color when clicked or visited
+.navLinks,
+.navLinks:visited {
+  text-decoration: none;
+  color: $customGray;
+}
 
 .navLinks:hover {
   border-bottom: 4px solid $customYellow;

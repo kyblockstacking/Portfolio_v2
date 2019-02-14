@@ -10,11 +10,17 @@ import './Components/Jumbotron/Jumbotron.scss';
 import './Components/Navbar/Navbar.scss';
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.myRef = React.createRef()   // Create a ref object 
+  }
+
   render() {
     return (
-      <div className="App">
+      <div className='App'>
         <Navbar />
         <Hero />
+        <div style={{ height: '100vh' }} id='hello'>HELLO</div>
       </div>
     );
   }
