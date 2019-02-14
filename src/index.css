@@ -6,6 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* set background to color so navbar slide-in animation does not have white background */
+  background-color: #364b71;
 }
 
 code {

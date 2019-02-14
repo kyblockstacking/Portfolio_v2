@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
-      <span className='logo'>KY</span>
+    <div className='navbar fade-in-top'>
+      <span className='logo bounce-in-top'>KY</span>
       <a className='navLinks'>CONTACT</a>
       <span className='seperateLinks'>&nbsp;|&nbsp;</span>
       <a className='navLinks'>ABOUT</a>
