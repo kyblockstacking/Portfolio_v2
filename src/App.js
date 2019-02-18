@@ -4,10 +4,12 @@ import './App.css';
 //components
 import Hero from './Components/Jumbotron/Jumbotron.jsx';
 import Navbar from './Components/Navbar/Navbar.jsx';
+import Stack from './Components/Stack/Stack.jsx';
 
 //sass css
 import './Components/Jumbotron/Jumbotron.scss';
 import './Components/Navbar/Navbar.scss';
+import './Components/Stack/Stack.scss';
 
 class App extends Component {
   constructor(props) {
@@ -20,7 +22,7 @@ class App extends Component {
       <div className='App'>
         <Navbar />
         <Hero />
-        <div style={{ height: '100vh' }} id='hello'>HELLO</div>
+        <Stack />
       </div>
     );
   }

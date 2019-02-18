@@ -1,0 +1,110 @@
+.stackContainer {
+  display: flex;
+  padding: 20vh 20vw 20vh 20vw;
+  font-size: 5em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 85px;
+  min-height: 85px;
+}
+
+.iconNames {
+  font-size: 0.2em;
+  font-weight: 700;
+  font-family: "Karla";
+  padding: 5px;
+}
+
+.babelIcon {
+  font-family: "Permanent Marker", cursive;
+  transform: rotate(350deg);
+  font-size: 0.6em;
+}
+
+.babelName {
+  transform: rotate(10deg);
+  font-family: "Karla";
+  font-size: 0.35em;
+  padding-top: 15px;
+}
+
+.fa-react {
+  color: #61dafb;
+}
+.fa-js-square {
+  color: #f7df1e;
+}
+.fa-rss {
+  color: #0769ad;
+}
+.fa-retweet {
+  color: #308ac9;
+}
+.fa-html5 {
+  color: #dd4b25;
+}
+.fa-css3 {
+  color: #1a6fb4;
+}
+.fa-box-open {
+  color: #1b84c1;
+}
+.fa-sass {
+  color: #cd6799;
+}
+.fa-bold {
+  color: #563d7c;
+}
+.fa-node {
+  color: #026e00;
+}
+.fa-npm {
+  color: #cb3837;
+}
+.fa-server {
+  color: #77b063;
+}
+.fa-yarn {
+  color: #2b8ab5;
+}
+.fa-git {
+  color: #e84e31;
+}
+.fa-github {
+  color: #302e2f;
+}
+.fa-aws {
+  color: #f0931c;
+}
+.fa-fish {
+  color: #00618b;
+}
+.fa-envira {
+  color: #599642;
+}
+.fa-cogs {
+  color: #c4c4c6;
+}
+.fa-connectdevelop {
+  color: #4930bd;
+}
+.fa-korvue {
+  color: #645fa1;
+}
+.babelIcon {
+  color: #ffe440;
+}
+.fa-terminal {
+  color: #00ac14;
+}
+.fa-code-branch {
+  color: #80c0f0;
+}
