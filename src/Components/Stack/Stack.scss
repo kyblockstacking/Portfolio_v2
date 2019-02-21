@@ -1,22 +1,26 @@
 .stackContainer {
-  display: flex;
-  padding: 20vh 20vw 20vh 20vw;
   font-size: 5em;
-  justify-content: space-between;
-  flex-wrap: wrap;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 200px;
-  max-height: 200px;
-  min-width: 85px;
-  min-height: 85px;
+  text-align: center;
+  padding: 20px;
 }
 
 .iconNames {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 0.2em;
   font-weight: 700;
   font-family: "Karla";
