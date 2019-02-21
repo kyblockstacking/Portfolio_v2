@@ -5,6 +5,7 @@ import './App.css';
 import Hero from './Components/Jumbotron/Jumbotron.jsx';
 import Navbar from './Components/Navbar/Navbar.jsx';
 import Stack from './Components/Stack/Stack.jsx';
+import BackToTop from './Components/BackToTop/BackToTop.jsx';
 
 //sass css
 import './Components/Jumbotron/Jumbotron.scss';
@@ -21,6 +22,7 @@ class App extends Component {
     return (
       <div className='App'>
         <Navbar />
+        <BackToTop />
         <Hero />
         <Stack />
       </div>
