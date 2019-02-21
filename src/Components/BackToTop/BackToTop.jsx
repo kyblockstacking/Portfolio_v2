@@ -13,30 +13,34 @@ class BackToTop extends Component {
             }
         };
 
-        this.handleScroll = this.handleScroll.bind(this);
+        this.BackToTop = this.BackToTop.bind(this);
     };
 
     componentWillMount() {
-        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('scroll', this.BackToTop);
     };
 
     componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('scroll', this.BackToTop);
     };
 
-    handleScroll() {
-        console.log(window.scrollY)
-        if (window.scrollY > 1) {
+    BackToTop() {
+        if (window.scrollY > 100) {
             this.setState({
                 style: {
                     visibility: 'visible',
                     position: 'fixed',
                     bottom: '4vh',
-                    right: '4vw'
+                    right: '4vw',
+                    padding: '20px',
+                    backgroundColor: '#D2E1FF',
+                    textDecoration: 'none',
+                    color: '#354B72',
+                    borderRadius: '10px'
                 }
-            })
+            });
         }
-        else if (window.scrollY < 2) {
+        else {
             this.setState({
                 style: {
                     visibility: 'hidden',
@@ -44,15 +48,29 @@ class BackToTop extends Component {
                     bottom: '4vh',
                     right: '4vw'
                 }
-            })
+            });
         }
+    };
+
+    CloseBackToTop() {
+
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+
+        this.setState({
+            style: {
+                visibility: 'hidden',
+                position: 'fixed',
+                bottom: '4vh',
+                right: '4vw'
+            }
+        });
     };
 
     render() {
         return (
-            <a style={this.state.style} href='#name'>
+            <span style={this.state.style} onClick={this.CloseBackToTop}>
                 Back To Top
-            </a>
+            </span>
         );
     };
 };
