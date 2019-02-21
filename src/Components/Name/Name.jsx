@@ -17,39 +17,39 @@ class Name extends Component {
     componentDidMount() {
         setTimeout(() => {
             this.setState({ k: 'bounce-in' })
-        }, Math.floor(Math.random() * Math.floor(2000)))
+        }, Math.floor(Math.random() * Math.floor(1000)))
 
         setTimeout(() => {
             this.setState({ e: 'bounce-in' })
-        }, Math.floor(Math.random() * Math.floor(2000)))
+        }, Math.floor(Math.random() * Math.floor(1000)))
 
         setTimeout(() => {
             this.setState({ v: 'bounce-in' })
-        }, Math.floor(Math.random() * Math.floor(2000)))
+        }, Math.floor(Math.random() * Math.floor(1000)))
 
         setTimeout(() => {
             this.setState({ i: 'bounce-in' })
-        }, Math.floor(Math.random() * Math.floor(2000)))
+        }, Math.floor(Math.random() * Math.floor(1000)))
 
         setTimeout(() => {
             this.setState({ n: 'bounce-in' })
-        }, Math.floor(Math.random() * Math.floor(2000)))
+        }, Math.floor(Math.random() * Math.floor(1000)))
 
         setTimeout(() => {
             this.setState({ y: 'bounce-in' })
-        }, Math.floor(Math.random() * Math.floor(2000)))
+        }, Math.floor(Math.random() * Math.floor(1000)))
 
         setTimeout(() => {
             this.setState({ a: 'bounce-in' })
-        }, Math.floor(Math.random() * Math.floor(2000)))
+        }, Math.floor(Math.random() * Math.floor(1000)))
 
         setTimeout(() => {
             this.setState({ n2: 'bounce-in' })
-        }, Math.floor(Math.random() * Math.floor(2000)))
+        }, Math.floor(Math.random() * Math.floor(1000)))
 
         setTimeout(() => {
             this.setState({ g: 'bounce-in' })
-        }, Math.floor(Math.random() * Math.floor(2000)))
+        }, Math.floor(Math.random() * Math.floor(1000)))
     }
 
     render() {
