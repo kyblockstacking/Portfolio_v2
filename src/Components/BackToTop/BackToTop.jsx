@@ -14,18 +14,18 @@ class BackToTop extends Component {
             className: ''
         };
 
-        this.BackToTop = this.BackToTop.bind(this);
+        this.RenderBackToTop = this.RenderBackToTop.bind(this);
     };
 
     componentWillMount() {
-        window.addEventListener('scroll', this.BackToTop);
+        window.addEventListener('scroll', this.RenderBackToTop);
     };
 
     componentWillUnmount() {
-        window.removeEventListener('scroll', this.BackToTop);
+        window.removeEventListener('scroll', this.RenderBackToTop);
     };
 
-    BackToTop() {
+    RenderBackToTop() {
         if (window.scrollY > 100) {
             this.setState({
                 style: {
@@ -40,6 +40,7 @@ class BackToTop extends Component {
                     borderRadius: '10px',
                     cursor: 'pointer',
                     fontFamily: 'Karla',
+                    boxShadow: '0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)'
                 },
                 className: 'slide-in'
             });
@@ -51,21 +52,13 @@ class BackToTop extends Component {
         }
     };
 
-    CloseBackToTop() {
+    BackToTop() {
         window.scrollTo({ top: 0, behavior: 'smooth' })
-        this.setState({
-            style: {
-                visibility: 'hidden',
-                position: 'fixed',
-                bottom: '4vh',
-                right: '4vw'
-            }
-        });
     };
 
     render() {
         return (
-            <span style={this.state.style} onClick={this.CloseBackToTop} className={this.state.className} id='backToTopButton'>
+            <span style={this.state.style} onClick={this.BackToTop} className={this.state.className} id='backToTopButton'>
                 Back To Top
             </span>
         );
