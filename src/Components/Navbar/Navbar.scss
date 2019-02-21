@@ -20,20 +20,34 @@ $EuphoriaScript: "Euphoria Script";
   cursor: default;
 }
 
-.navLinks,
-.seperateLinks {
+.navLinks {
+  display: inline-block;
+  position: relative;
+  color: $customGray;
   font-family: $Karla;
 }
+
+.navLinks::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: $customYellow;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.navLinks:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 //keeps visited navbar links the same color when clicked or visited
 .navLinks,
 .navLinks:visited {
   text-decoration: none;
-  color: $customGray;
-}
-
-.navLinks:hover {
-  border-bottom: 4px solid $customYellow;
-  cursor: pointer;
 }
 //used for navLinks
 .fade-in-top {
