@@ -33,7 +33,7 @@ class BackToTop extends Component {
                     position: 'fixed',
                     bottom: '4vh',
                     right: '4vw',
-                    padding: '20px',
+                    padding: '10px',
                     backgroundColor: '#D2E1FF',
                     textDecoration: 'none',
                     color: '#354B72',
@@ -65,7 +65,7 @@ class BackToTop extends Component {
 
     render() {
         return (
-            <span style={this.state.style} onClick={this.CloseBackToTop} className={this.state.className} id='kevin'>
+            <span style={this.state.style} onClick={this.CloseBackToTop} className={this.state.className} id='backToTopButton'>
                 Back To Top
             </span>
         );

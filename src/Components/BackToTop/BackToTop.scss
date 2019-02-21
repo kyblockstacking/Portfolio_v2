@@ -89,3 +89,33 @@
     opacity: 0;
   }
 }
+
+#backToTopButton:before,
+#backToTopButton:after {
+  border: 0 solid transparent;
+  transition: all 0.25s;
+  content: "";
+  position: absolute;
+  width: 0;
+}
+#backToTopButton:before {
+  border-top: 2px solid #ffdb58;
+  left: 0px;
+  top: -5px;
+}
+
+#backToTopButton:after {
+  border-bottom: 2px solid #ffdb58;
+  bottom: -5px;
+  right: 0px;
+}
+
+#backToTopButton:hover {
+  background-color: #ffdb58;
+}
+
+#backToTopButton:hover:before,
+#backToTopButton:hover:after {
+  height: 100%;
+  width: 100%;
+}
