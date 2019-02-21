@@ -10,7 +10,8 @@ class BackToTop extends Component {
                 position: 'fixed',
                 bottom: '4vh',
                 right: '4vw'
-            }
+            },
+            className: ''
         };
 
         this.BackToTop = this.BackToTop.bind(this);
@@ -36,26 +37,22 @@ class BackToTop extends Component {
                     backgroundColor: '#D2E1FF',
                     textDecoration: 'none',
                     color: '#354B72',
-                    borderRadius: '10px'
-                }
+                    borderRadius: '10px',
+                    cursor: 'pointer',
+                    fontFamily: 'Karla',
+                },
+                className: 'slide-in'
             });
         }
         else {
             this.setState({
-                style: {
-                    visibility: 'hidden',
-                    position: 'fixed',
-                    bottom: '4vh',
-                    right: '4vw'
-                }
+                className: 'slide-out'
             });
         }
     };
 
     CloseBackToTop() {
-
         window.scrollTo({ top: 0, behavior: 'smooth' })
-
         this.setState({
             style: {
                 visibility: 'hidden',
@@ -68,7 +65,7 @@ class BackToTop extends Component {
 
     render() {
         return (
-            <span style={this.state.style} onClick={this.CloseBackToTop}>
+            <span style={this.state.style} onClick={this.CloseBackToTop} className={this.state.className}>
                 Back To Top
             </span>
         );

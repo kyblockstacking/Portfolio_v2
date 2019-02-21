@@ -11,6 +11,7 @@ import BackToTop from './Components/BackToTop/BackToTop.jsx';
 import './Components/Jumbotron/Jumbotron.scss';
 import './Components/Navbar/Navbar.scss';
 import './Components/Stack/Stack.scss';
+import './Components/BackToTop/BackToTop.scss';
 
 class App extends Component {
   constructor(props) {
@@ -22,9 +23,9 @@ class App extends Component {
     return (
       <div className='App'>
         <Navbar />
-        <BackToTop />
         <Hero />
         <Stack />
+        <BackToTop />
       </div>
     );
   }
