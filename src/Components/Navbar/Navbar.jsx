@@ -6,7 +6,6 @@ class Navbar extends React.Component {
 
     return (
       <div>
-        <div className='logo bounce-in-top' id='name'>Kevin Yang</div>
         <div className='navbar fade-in-top'>
           <a href='#contact' className='navLinks'>CONTACT</a>
           <span className='separateLinks'>&nbsp;|&nbsp;</span>
