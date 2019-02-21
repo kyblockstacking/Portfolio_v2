@@ -1,5 +1,5 @@
 .stackContainer {
-  font-size: 5em;
+  font-size: 3em;
 }
 
 .row1,
@@ -8,13 +8,16 @@
 .row4,
 .row5 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  width: 50vw;
+  margin: 0 auto;
+  padding: 5px;
 }
 
 .icons {
   text-align: center;
-  padding: 20px;
+  padding: 2px;
 }
 
 .iconNames {
