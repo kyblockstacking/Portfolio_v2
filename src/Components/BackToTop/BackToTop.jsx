@@ -65,7 +65,7 @@ class BackToTop extends Component {
 
     render() {
         return (
-            <span style={this.state.style} onClick={this.CloseBackToTop} className={this.state.className}>
+            <span style={this.state.style} onClick={this.CloseBackToTop} className={this.state.className} id='kevin'>
                 Back To Top
             </span>
         );

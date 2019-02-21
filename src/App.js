@@ -14,10 +14,6 @@ import './Components/Stack/Stack.scss';
 import './Components/BackToTop/BackToTop.scss';
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-    this.myRef = React.createRef()   // Create a ref object 
-  }
 
   render() {
     return (
