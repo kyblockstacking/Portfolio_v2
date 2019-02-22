@@ -3,6 +3,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* set background to color so navbar slide-in animation does not have white background */
   background-color: #364b71;
+  margin: 0;
 }
 
 html {
