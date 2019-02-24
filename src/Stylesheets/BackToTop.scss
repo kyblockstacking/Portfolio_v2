@@ -100,13 +100,13 @@
 }
 
 #backToTopButton:before {
-  border-top: 2px solid #ffdb58;
+  border-top: 2px solid $yellow;
   left: 0px;
   top: -5px;
 }
 
 #backToTopButton:after {
-  border-bottom: 2px solid #ffdb58;
+  border-bottom: 2px solid $yellow;
   bottom: -5px;
   right: 0px;
 }

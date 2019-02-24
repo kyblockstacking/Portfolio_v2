@@ -26,7 +26,7 @@
   align-items: center;
   font-size: 0.2em;
   font-weight: 700;
-  font-family: "Karla";
+  font-family: $karla;
   padding: 5px;
 }
 
@@ -38,80 +38,77 @@
 
 .babelName {
   transform: rotate(10deg);
-  font-family: "Karla";
+  font-family: $karla;
   font-size: 0.35em;
   padding-top: 15px;
 }
 
 .fa-react {
-  color: #61dafb;
+  color: $react;
 }
 .fa-js-square {
-  color: #f7df1e;
+  color: $javascript;
 }
 .fa-rss {
-  color: #0769ad;
+  color: $jquery;
 }
 .fa-retweet {
-  color: #308ac9;
+  color: $ajax;
 }
 .fa-html5 {
-  color: #dd4b25;
+  color: $html;
 }
 .fa-css3 {
-  color: #1a6fb4;
+  color: $css;
 }
 .fa-box-open {
-  color: #1b84c1;
+  color: $flexbox;
 }
 .fa-sass {
-  color: #cd6799;
+  color: $sass;
 }
 .fa-bold {
-  color: #563d7c;
+  color: $bootstrap;
 }
 .fa-node {
-  color: #026e00;
+  color: $node;
 }
 .fa-npm {
-  color: #cb3837;
+  color: $npm;
 }
 .fa-server {
-  color: #77b063;
+  color: $express;
 }
 .fa-yarn {
-  color: #2b8ab5;
+  color: $yarn;
 }
 .fa-git {
-  color: #e84e31;
+  color: $git;
 }
 .fa-github {
-  color: #302e2f;
+  color: $github;
 }
 .fa-aws {
-  color: #f0931c;
+  color: $aws;
 }
 .fa-fish {
-  color: #00618b;
+  color: $mysql;
 }
 .fa-envira {
-  color: #599642;
+  color: $mongodb;
 }
 .fa-cogs {
-  color: #c4c4c6;
+  color: $apis;
 }
 .fa-connectdevelop {
-  color: #4930bd;
+  color: $eslint;
 }
 .fa-korvue {
-  color: #645fa1;
+  color: $heroku;
 }
 .babelIcon {
-  color: #ffe440;
-}
-.fa-terminal {
-  color: #00ac14;
+  color: $babel;
 }
 .fa-code-branch {
-  color: #80c0f0;
+  color: $regex;
 }

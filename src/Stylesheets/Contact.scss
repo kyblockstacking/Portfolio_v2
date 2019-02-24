@@ -1,6 +1,5 @@
 .contact {
-  background-color: #364b71;
-  background-image: url("../../Images/footer.png");
+  background-image: url("../Images/footer.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -15,11 +14,11 @@
   text-align: center;
   font-size: 2em;
   padding: 10px;
-  color: #d2e1ff;
+  color: $cloud;
   border-radius: 50%;
   width: 2rem;
   height: 2rem;
-  background: #364b71;
+  background: $darkblue;
   margin-top: 1vh;
 }
 
@@ -33,18 +32,18 @@
 
 .description {
   margin-top: 12vh;
-  color: #364b71;
-  font-family: "Karla";
+  color: $darkblue;
+  font-family: $karla;
   font-size: 1.2em;
 }
 
 .contacts {
   text-decoration: none;
-  color: #364b71;
+  color: $darkblue;
 }
 
 .contacts:hover {
-  color: #ffdb58;
+  color: $yellow;
 }
 
 .col {

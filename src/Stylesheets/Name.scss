@@ -3,9 +3,9 @@
   justify-content: center;
   align-items: center;
   font-size: 5em;
-  font-family: "Euphoria Script";
+  font-family: $script;
   cursor: default;
-  color: #ffdb58;
+  color: $yellow;
 }
 
 .hide {

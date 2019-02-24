@@ -1,24 +1,17 @@
-//SASS Variables
-$customBlue: #364b71; //blue gray
-$customGray: #d1e1ff; //cloud
-$customYellow: #ffdb58; //mustard
-$Karla: "Karla";
-$EuphoriaScript: "Euphoria Script";
-
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $customBlue;
-  color: $customGray;
+  background-color: $darkblue;
+  color: $cloud;
   font-size: 1.4em;
 }
 
 .navLinks {
   display: inline-block;
   position: relative;
-  color: $customGray;
-  font-family: $Karla;
+  color: $cloud;
+  font-family: $karla;
 }
 
 .navLinks::after {
@@ -29,7 +22,7 @@ $EuphoriaScript: "Euphoria Script";
   height: 3px;
   bottom: 0;
   left: 0;
-  background-color: $customYellow;
+  background-color: $yellow;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }

@@ -1,8 +1,5 @@
-//SASS Variables
-$heroImage: url("../../Images/wallpaper.jpg");
-
 .hero {
-  background-image: $heroImage;
+  background-image: url("../Images/wallpaper.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

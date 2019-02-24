@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import profilePicture from '../../Images/pic.jpg'
+import profilePicture from '../Images/pic.jpg';
 
 class Contact extends Component {
     constructor(props) {
@@ -54,7 +54,7 @@ class Contact extends Component {
                         <div className='description'>
                             <div className='footerName'>Kevin Yang</div>
                             <div><a href='mailto:kevin1992yang@gmail.com' className='contacts'>kevin1992yang@gmail.com</a></div>
-                            <div><a href='tel:626-539-9092' className='contacts'>626-539-9092</a></div>
+                            <div><a href='tel:1-626-539-9092' className='contacts'>626-539-9092</a></div>
                         </div>
                     </div>
                     <div className='row'>
