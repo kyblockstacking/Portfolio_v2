@@ -21,15 +21,19 @@ class Contact extends Component {
         const html = document.documentElement;
         const docHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
         const windowBottom = windowHeight + window.pageYOffset;
-        if (windowBottom >= docHeight) {
+        // adjust docHeight to show/unshow footer sooner/later
+        if (windowBottom >= docHeight - 250) {
             this.setState({
                 class: 'col fade-in'
             });
-        } else {
+        }
+        else if (windowBottom < docHeight) {
             this.setState({
                 class: 'col fade-out'
             });
         }
+        console.log('bot' + windowBottom)
+        console.log('doc' + docHeight)
     };
 
     componentDidMount() {
