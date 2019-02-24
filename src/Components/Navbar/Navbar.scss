@@ -45,8 +45,8 @@ $EuphoriaScript: "Euphoria Script";
 }
 //used for navLinks
 .fade-in-top {
-  -webkit-animation: fade-in-top 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) 2.6s both;
-  animation: fade-in-top 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) 2.6s both;
+  -webkit-animation: fade-in-top 2s cubic-bezier(0.39, 0.575, 0.565, 1) 2.6s both;
+  animation: fade-in-top 2s cubic-bezier(0.39, 0.575, 0.565, 1) 2.6s both;
 }
 
 @-webkit-keyframes fade-in-top {

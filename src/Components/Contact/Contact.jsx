@@ -5,12 +5,17 @@ import profilePicture from '../../Images/pic.jpg'
 class Contact extends Component {
     constructor(props) {
         super(props);
+
         this.state = {
             class: 'col'
         };
-        this.handleScroll = this.handleScroll.bind(this);
-    }
-    handleScroll() {
+
+        this.RenderFooter = this.RenderFooter.bind(this);
+
+    };
+    // fades in footer if scrolled to bottom of the page 
+    // fades out footer if not at bottom of the page
+    RenderFooter() {
         const windowHeight = 'innerHeight' in window ? window.innerHeight : document.documentElement.offsetHeight;
         const body = document.body;
         const html = document.documentElement;
@@ -28,11 +33,11 @@ class Contact extends Component {
     };
 
     componentDidMount() {
-        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('scroll', this.RenderFooter);
     };
 
     componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('scroll', this.RenderFooter);
     };
 
 

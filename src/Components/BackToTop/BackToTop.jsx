@@ -24,7 +24,8 @@ class BackToTop extends Component {
     componentWillUnmount() {
         window.removeEventListener('scroll', this.RenderBackToTop);
     };
-
+    // slides in backToTop button if not at top of page
+    // slides out backToTop button if at top of page
     RenderBackToTop() {
         if (window.scrollY > 100) {
             this.setState({
