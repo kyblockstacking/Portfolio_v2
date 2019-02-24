@@ -38,7 +38,7 @@ class Contact extends Component {
 
     render() {
         return (
-            <div className='contact'>
+            <div className='contact' id='contact'>
                 <div className={this.state.class}>
                     <div className='row'>
                         <img src={profilePicture} alt='Smiley face' className='profilePicture' />
