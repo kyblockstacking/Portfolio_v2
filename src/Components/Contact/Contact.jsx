@@ -18,11 +18,11 @@ class Contact extends Component {
         const windowBottom = windowHeight + window.pageYOffset;
         if (windowBottom >= docHeight) {
             this.setState({
-                class: 'col fade-in-bottom'
+                class: 'col fade-in'
             });
         } else {
             this.setState({
-                class: 'col fade-out-bottom'
+                class: 'col fade-out'
             });
         }
     };
