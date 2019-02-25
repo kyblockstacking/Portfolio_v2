@@ -32,8 +32,6 @@ class Contact extends Component {
                 class: 'col fade-out'
             });
         }
-        console.log('bot' + windowBottom)
-        console.log('doc' + docHeight)
     };
 
     componentDidMount() {

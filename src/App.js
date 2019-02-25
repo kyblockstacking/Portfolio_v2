@@ -11,6 +11,8 @@ import Stack from './Components/Stack.jsx';
 import Contact from './Components/Contact.jsx';
 import BackToTop from './Components/BackToTop.jsx';
 
+import Projects from './Components/Projects.jsx';
+
 class App extends Component {
 
   render() {
@@ -18,6 +20,7 @@ class App extends Component {
       <div className='App'>
         <Name />
         <Navbar />
+        <Projects />
         <Hero />
         <Stack />
         <Contact />
