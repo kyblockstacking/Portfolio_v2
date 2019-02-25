@@ -41,6 +41,11 @@ class Projects extends Component {
                     <p>Hex Clock</p>
                     <p>Hex code numbers depicts the current time.</p>
                 </div>
+                <div className='panel panel5'>
+                    <a className='githubProject' href='https://kyblockstacking.github.io/Watch-Adventure-Time/' rel='noopener noreferrer' target='_blank'>GitHub&nbsp;Repository&nbsp;<i className='fas fa-external-link-alt'></i></a>
+                    <p>Adventure Time Break</p>
+                    <p>Take a break and watch Adventure Time!</p>
+                </div>
             </div>
         );
     };

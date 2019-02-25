@@ -64,6 +64,13 @@
   font-family: $karla;
 }
 
+.panel5 {
+  color: #feb600;
+  background-image: url(../Images/adventuretimebreak.png);
+  background-color: #feb600;
+  font-family: $karla;
+}
+
 /* Flex Items */
 .panel > * {
   margin: 0;
@@ -96,19 +103,22 @@
 }
 
 .panel p:nth-child(2) {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .panel.open {
-  flex: 4;
+  flex: 5;
   font-size: 40px;
 }
 
-// @media only screen and (max-width: 600px) {
-//   .panel p {
-//     font-size: 1em;
-//   }
-// }
+@media only screen and (max-width: 600px) {
+  .panel p {
+    font-size: 1em;
+  }
+  .panels {
+    overflow: auto;
+  }
+}
 
 .githubProject {
   text-decoration: none;
