@@ -61,31 +61,43 @@
   font-size: 2em;
 }
 
-.fa-github-alt:hover {
-  color: #302e2f;
-  cursor: pointer;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+.fa-github-alt {
+  text-decoration: none;
+  color: $cloud;
+  &:hover {
+    color: #302e2f;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
-.fa-linkedin-in:hover {
-  color: #0077b5;
-  cursor: pointer;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+.fa-linkedin-in {
+  text-decoration: none;
+  color: $cloud;
+  &:hover {
+    color: #0077b5;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
-.fa-reddit-alien:hover {
-  color: #ff4500;
-  cursor: pointer;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+.fa-reddit-alien {
+  text-decoration: none;
+  color: $cloud;
+  &:hover {
+    color: #ff4500;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
 .fade-in {

@@ -56,9 +56,9 @@ class Contact extends Component {
                         </div>
                     </div>
                     <div className='row'>
-                        <div className='links'><i className='fab fa-github-alt'></i></div>
-                        <div className='links'><i className='fab fa-linkedin-in'></i></div>
-                        <div className='links'><i className='fab fa-reddit-alien'></i></div>
+                        <div className='links'><a className='fab fa-github-alt' href='https://github.com/kyblockstacking' target='_blank' rel='noopener noreferrer'></a></div>
+                        <div className='links'><a className='fab fa-linkedin-in' href='https://www.linkedin.com/in/-kevinyang/' target='_blank' rel='noopener noreferrer'></a></div>
+                        <div className='links'><a className='fab fa-reddit-alien' href='https://www.reddit.com/user/knyg' target='_blank' rel='noopener noreferrer'></a></div>
                     </div>
                 </div>
             </div>
